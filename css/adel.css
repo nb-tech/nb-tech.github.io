@@ -12,6 +12,12 @@ body {
     border-color: #4a0d66;
 }
 
+.title {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .dropdown-toggle {
   color: #fff;
