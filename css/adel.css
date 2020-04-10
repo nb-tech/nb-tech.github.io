@@ -1,0 +1,74 @@
+
+body {
+  padding-top: 56px;
+}
+
+.bg-purple {
+    background: #4a0d66;
+}
+
+.btn-primary {
+    background: #4a0d66;
+    border-color: #4a0d66;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .dropdown-toggle {
+  color: #fff;
+  background-color: #4a0d66;
+  border-color: #4a0d66;
+}
+
+.dropdown.active, .dropdown:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #4a0d66;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-xl {
+  width: 250px;
+  height: 75px;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.img-blog:hover {
+  transform:scale(1.03);
+	transition:1s;
+}
+
+.blogButtonContainer {
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.headerContainer {
+  height: 300px;
+}
+
+.iconContainer {
+  padding-left: 50px;
+}
+
+.footerItem {
+  padding: 10px;
+  margin: 10px;
+}
+
+.footerIconItem {
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: white;
+}
